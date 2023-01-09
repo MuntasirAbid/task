@@ -133,7 +133,7 @@ const Products = () => {
     return (
         <div >
             <input sx={{ my: '20px' }}
-                type="text"
+                type="number"
                 placeholder='search'
                 onKeyUp={(e) => {
                     setSearch(e.target.value);
